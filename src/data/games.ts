@@ -6,7 +6,7 @@ export const games = [
     category: 'Logic',
     description: 'Test your logical thinking with this engaging puzzle game where you pop and drop elements to solve challenges.',
     instructions: 'Click to pop bubbles and solve the logical puzzles. Think carefully about each move!',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1615751072497-5f5169febe17?auto=format&fit=crop&q=80&w=1200',
+    thumbnailUrl: 'https://images.squarespace-cdn.com/content/v1/5cf80e4e43d2a600018fd756/4c1db664-3862-4b83-b42d-0a07958c6bf0/pop+%26+drop+logo+austin+tx.png?auto=format&fit=crop&q=80&w=1200',
     projectId: '279422357',
     featured: true
   },
@@ -50,7 +50,7 @@ export const games = [
     category: 'Simulation',
     description: 'Experience the intensity of monitoring vital signs in this unique medical simulation game.',
     instructions: 'Keep track of the heart rate and respond to various medical scenarios.',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1631815588090-d4bfec5b1b98?auto=format&fit=crop&q=80&w=1200',
+    thumbnailUrl: '../../public/heart.jpg',
     projectId: '1083694427',
     featured: true
   },
@@ -61,7 +61,7 @@ export const games = [
     category: 'AI Challenge',
     description: 'Face off against an AI interviewer in this unique and challenging interview simulation.',
     instructions: 'Answer questions carefully and try to navigate through the impossible interview scenarios.',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1677442136019-21000c466744?auto=format&fit=crop&q=80&w=1200',
+    thumbnailUrl: '../../public/devil.png',
     projectId: '1126765653',
     featured: true
   }
