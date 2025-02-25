@@ -50,7 +50,7 @@ export const games = [
     category: 'Simulation',
     description: 'Experience the intensity of monitoring vital signs in this unique medical simulation game.',
     instructions: 'Keep track of the heart rate and respond to various medical scenarios.',
-    thumbnailUrl: '../../public/heart.jpg',
+    thumbnailUrl: "../../public/heart.jpg",
     projectId: '1083694427',
     featured: true
   },
