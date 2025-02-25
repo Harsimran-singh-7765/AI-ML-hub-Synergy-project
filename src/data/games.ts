@@ -50,7 +50,7 @@ export const games = [
     category: 'Simulation',
     description: 'Experience the intensity of monitoring vital signs in this unique medical simulation game.',
     instructions: 'Keep track of the heart rate and respond to various medical scenarios.',
-    thumbnailUrl: "../../public/heart.jpg",
+    thumbnailUrl: "heart.jpg",
     projectId: '1083694427',
     featured: true
   },
@@ -61,7 +61,7 @@ export const games = [
     category: 'AI Challenge',
     description: 'Face off against an AI interviewer in this unique and challenging interview simulation.',
     instructions: 'Answer questions carefully and try to navigate through the impossible interview scenarios.',
-    thumbnailUrl: '../../public/devil.png',
+    thumbnailUrl: 'devil.png',
     projectId: '1126765653',
     featured: true
   }
