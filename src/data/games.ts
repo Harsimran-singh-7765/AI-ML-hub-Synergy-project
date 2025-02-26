@@ -20,7 +20,8 @@ export const games = [
     instructions: 'Read each riddle carefully and type your answer. Think outside the box!',
     thumbnailUrl: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?auto=format&fit=crop&q=80&w=1200',
     projectId: '326163967',
-    embedType: 'scratch',
+    embedUrl: 'https://ai-warden.ascpixi.dev/',
+    embedType: 'iframe',
     featured: true
   },
   {
