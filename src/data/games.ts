@@ -55,7 +55,7 @@ export const games = [
     description: 'Challenge your brain with this collection of mind-bending puzzles designed to test your problem-solving skills.',
     instructions: 'Solve various puzzles by thinking creatively and using logical reasoning.',
     thumbnailUrl: 'https://images.unsplash.com/photo-1553481187-be93c21490a9?auto=format&fit=crop&q=80&w=1200',
-    embedUrl: 'https://thunderous-beijinho-dc3ecb.netlify.app',
+    embedUrl: 'https://ephemeral-unicorn-ad37c6.netlify.app',
     embedType: 'iframe',
     featured: true
   },
