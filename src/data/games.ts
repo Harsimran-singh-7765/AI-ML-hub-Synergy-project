@@ -50,7 +50,7 @@ export const games = [
   {
     id: '5',
     title: 'Puzzle Mind',
-    author: 'MindGames',
+    author: 'Harsimran Singh',
     category: 'Puzzle',
     description: 'Challenge your brain with this collection of mind-bending puzzles designed to test your problem-solving skills.',
     instructions: 'Solve various puzzles by thinking creatively and using logical reasoning.',
