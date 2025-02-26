@@ -6,7 +6,9 @@ export interface Game {
   description: string;
   instructions: string;
   thumbnailUrl: string;
-  projectId: string;
+  projectId?: string; // Make optional since not all games will be from Scratch
+  embedUrl?: string; // Add direct embed URL for non-Scratch games
+  embedType: 'scratch' | 'iframe'; // Type of embed
   featured: boolean;
 }
 

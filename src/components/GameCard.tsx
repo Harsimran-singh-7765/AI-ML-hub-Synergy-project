@@ -17,6 +17,14 @@ export function GameCard({ game, index }: GameCardProps) {
     'hover:rotate-1'
   ];
 
+  // Determine the game type icon
+  const GameTypeIcon = () => {
+    if (game.embedType === 'iframe') {
+      return <Sparkles className="w-3 h-3 mr-1" />;
+    }
+    return <Brain className="w-3 h-3 mr-1" />;
+  };
+
   return (
     <div 
       className={`group relative overflow-hidden rounded-xl bg-white dark:bg-gray-800 shadow-lg transition-all duration-500 ${animations[index % animations.length]}`}
@@ -30,7 +38,7 @@ export function GameCard({ game, index }: GameCardProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <div className="absolute bottom-4 left-4 right-4">
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-indigo-600 text-white mb-2">
-              <Brain className="w-3 h-3 mr-1" />
+              <GameTypeIcon />
               {game.category}
             </span>
           </div>

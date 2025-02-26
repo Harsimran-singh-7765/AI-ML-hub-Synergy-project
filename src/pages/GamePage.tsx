@@ -32,7 +32,17 @@ export function GamePage() {
     );
   }
 
-  const embedUrl = `https://scratch.mit.edu/projects/${game.projectId}/embed`;
+  // Determine the embed URL based on the game type
+  const getEmbedUrl = () => {
+    if (game.embedType === 'scratch' && game.projectId) {
+      return `https://scratch.mit.edu/projects/${game.projectId}/embed`;
+    } else if (game.embedType === 'iframe' && game.embedUrl) {
+      return game.embedUrl;
+    }
+    return '';
+  };
+
+  const embedUrl = getEmbedUrl();
 
   return (
     <div className="min-h-screen pt-16 container mx-auto px-4 py-8">
