@@ -13,7 +13,7 @@ export const games = [
   },
   {
     id: '2',
-    title: 'Riddle Master',
+    title: 'AI Warden',
     author: 'PuzzleWhiz',
     category: 'Puzzle',
     description: 'Challenge your mind with an intriguing collection of riddles that will test your wit and creativity.',
