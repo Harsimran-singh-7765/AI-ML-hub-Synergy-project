@@ -23,7 +23,7 @@ export function Header({ timeLeft }: HeaderProps) {
             <img 
               src="aimlLogo.png" 
               alt="AI/ML Logo" 
-              className="w-8 h-8"
+              className="w-10 h-10"
             />
             <span className="text-xl font-bold text-gray-900 dark:text-white">AI/ML Hub</span>
           </Link>
