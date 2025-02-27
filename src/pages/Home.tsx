@@ -50,9 +50,6 @@ export function Home() {
           <p className="text-xl text-gray-200 mb-4">
             Challenge your mind with our collection of engaging puzzle and memory games
           </p>
-          <p className="text-lg text-yellow-300 mb-8 font-semibold">
-            Complete as many games according to criteria in less time as possible to win the prize!
-          </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
               to="#games"
