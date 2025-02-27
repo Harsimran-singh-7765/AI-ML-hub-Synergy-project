@@ -28,7 +28,7 @@ export function Home() {
             <img 
               src="aimlLogo.png" 
               alt="AI/ML Logo" 
-              className="h-41 w-41"
+              className="h-48 w-48"
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
@@ -79,7 +79,7 @@ export function Home() {
       </section>
 
       {/* System-1 Games Section */}
-      <section id="games" className="container mx-auto px-4 py-16">
+      <section id="system-1" className="container mx-auto px-4 py-16">
         <div className="mb-12 text-center">
           <div className="flex items-center justify-center mb-4">
             <Brain className="w-8 h-8 mr-2 text-indigo-600" />
@@ -92,9 +92,13 @@ export function Home() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
-          {system1Games.map((game, index) => (
-            <GameCard key={game.id} game={game} index={index} />
-          ))}
+          <div className="col-span-full lg:col-span-4 flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {system1Games.map((game, index) => (
+                <GameCard key={game.id} game={game} index={index} />
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -112,9 +116,13 @@ export function Home() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
-          {system2Games.map((game, index) => (
-            <GameCard key={game.id} game={game} index={index} />
-          ))}
+          <div className="col-span-full flex justify-center">
+            <div className="w-full md:w-auto">
+              {system2Games.map((game, index) => (
+                <GameCard key={game.id} game={game} index={index} />
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -132,9 +140,13 @@ export function Home() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
-          {bonusGames.map((game, index) => (
-            <GameCard key={game.id} game={game} index={index} />
-          ))}
+          <div className="col-span-full flex justify-center">
+            <div className="w-full md:w-auto">
+              {bonusGames.map((game, index) => (
+                <GameCard key={game.id} game={game} index={index} />
+              ))}
+            </div>
+          </div>
         </div>
       </section>
     </div>
