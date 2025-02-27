@@ -1,7 +1,7 @@
 import React from 'react';
 import { GameCard } from '../components/GameCard';
 import { games } from '../data/games';
-import { ArrowRight, Brain, Sparkles, Zap, Clock, Award } from 'lucide-react';
+import { Brain, Sparkles, Zap, Clock, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Home() {
@@ -23,29 +23,20 @@ export function Home() {
       {/* Hero Section */}
       <section className="relative h-[70vh] flex items-center justify-center bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-600">
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative z-10 text-center px-4 max-w-4xl">
+        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className="flex justify-center mb-6">
             <img 
               src="aimlLogo.png" 
               alt="AI/ML Logo" 
-              className="h-43 w-43" // Increased size from h-24 w-24
+              className="h-43 w-43"
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Brain Games Arcade
           </h1>
-          <p className="text-xl text-gray-200 mb-4">
+          <p className="text-xl text-gray-200">
             Challenge your mind with our collection of engaging puzzle and memory games
           </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <Link
-              to="#games"
-              className="inline-flex items-center px-6 py-3 bg-white text-indigo-600 rounded-full font-semibold hover:bg-gray-100 transition-colors duration-200"
-            >
-              Play Games
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -100,7 +91,7 @@ export function Home() {
             Fast, automatic, and intuitive thinking games that test your reflexes and pattern recognition
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {system1Games.map((game, index) => (
             <GameCard key={game.id} game={game} index={index} />
           ))}
@@ -120,7 +111,7 @@ export function Home() {
             Slow, deliberate, and analytical thinking games that challenge your reasoning and problem-solving abilities
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-md mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {system2Games.map((game, index) => (
             <GameCard key={game.id} game={game} index={index} />
           ))}
@@ -140,7 +131,7 @@ export function Home() {
             Challenge yourself with our most demanding game that will put your cognitive abilities to the ultimate test
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-md mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {bonusGames.map((game, index) => (
             <GameCard key={game.id} game={game} index={index} />
           ))}
