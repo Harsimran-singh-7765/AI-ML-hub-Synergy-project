@@ -21,7 +21,7 @@ export function Header({ timeLeft }: HeaderProps) {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" 
+              src="aimlLogo.png" 
               alt="AI/ML Logo" 
               className="w-8 h-8"
             />
