@@ -136,12 +136,12 @@ export function Home() {
             </h2>
           </div>
           <p className="text-gray-100 max-w-2xl mx-auto">
-            Put your cognitive abilities to the ultimate test.
+            Only attempt after completeing all system 1 games.
             Upon Completion you will be given a time advantage over other teams!!
           </p>
           <div className="mt-6 p-4 bg-white/20 rounded-lg max-w-2xl mx-auto">
             <p className="text-white font-medium">
-               Only attempt after completeing all system 1 games. Tell the logic of this game to the volunteer and then write it in the document.
+              Tell the logic of this game to the volunteer and then write it in the document.
             </p>
           </div>
         </div>
