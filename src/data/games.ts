@@ -71,8 +71,9 @@ export const games = [
     author: 'AIExplorer',
     category: 'AI Challenge',
     description: 'Face off against an AI interviewer in this unique and challenging interview simulation.',
-    instructions: 'Answer questions carefully and try to navigate through the impossible interview scenarios. Complete as many questions as possible in the shortest time.',
-    thumbnailUrl: 'devil.png',
+
+    instructions: 'Answer questions carefully and try to navigate through the impossible interview scenarios.',
+    thumbnailUrl: 'inter.jpeg',
     projectId: '1126765653',
     embedType: 'scratch',
     featured: true,
