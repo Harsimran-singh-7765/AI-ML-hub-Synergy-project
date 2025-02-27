@@ -4,8 +4,7 @@ export const games = [
     title: 'Pop and Drop',
     author: 'LogicMaster',
     category: 'Logic',
-    description: 'Test your logical thinking with this engaging puzzle game where you pop and drop elements to solve challenges.',
-    instructions: 'Click to pop bubbles and solve the logical puzzles. Think carefully about each move! Complete at least 5 levels to clear this game.',
+    instructions: 'Drag a pin to hop over another one and drop it to move. To beat a level you must finish with only one pin left!',
     thumbnailUrl: 'https://images.squarespace-cdn.com/content/v1/5cf80e4e43d2a600018fd756/4c1db664-3862-4b83-b42d-0a07958c6bf0/pop+%26+drop+logo+austin+tx.png?auto=format&fit=crop&q=80&w=1200',
     projectId: '279422357',
     embedType: 'scratch',
@@ -24,14 +23,14 @@ export const games = [
     embedUrl: 'https://ai-warden.ascpixi.dev/',
     embedType: 'iframe',
     featured: true,
-    completionCriteria: 'Solve as many riddles as possible'
+    completionCriteria: 'Convince the warden to tell you the secret phrase'
   },
   {
     id: '3',
     title: 'Memory Maze',
     author: 'MazeRunner',
     category: 'Memory',
-    description: 'Navigate through a challenging maze while testing your memory skills in this exciting adventure.',
+    description: 'Arrow keys to move!',
     instructions: 'Remember the path and avoid obstacles as you make your way through the maze. Complete at least 3 levels to clear this game.',
     thumbnailUrl: 'memorymaze.jpeg',
     projectId: '26501005',
@@ -45,7 +44,7 @@ export const games = [
     author: 'BrainTeaser',
     category: 'Memory',
     description: 'Put your memory to the ultimate test in this fast-paced, challenging memory game.',
-    instructions: 'Match pairs and remember patterns to progress through increasingly difficult levels. Complete at least 3 levels to clear this game.',
+    instructions: "If you need to give more than 1 answer in a multiple choice question, don't add 'a' or 'an'",
     thumbnailUrl: 'MemoryMadness.jpeg',
     projectId: '57765552',
     embedType: 'scratch',
@@ -72,12 +71,12 @@ export const games = [
     category: 'AI Challenge',
     description: 'Face off against an AI interviewer in this unique and challenging interview simulation.',
 
-    instructions: 'Answer questions carefully and try to navigate through the impossible interview scenarios.',
+    instructions: 'Answer questions carefully and try to navigate through the impossible interview scenario.',
     thumbnailUrl: 'inter.jpeg',
     projectId: '1126765653',
     embedType: 'scratch',
     featured: true,
-    completionCriteria: 'Answer as many questions as possible'
+    completionCriteria: 'Deduce the logic behind the game'
   }
 ];
 
