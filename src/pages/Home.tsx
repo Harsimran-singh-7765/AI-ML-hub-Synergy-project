@@ -39,7 +39,7 @@ export function Home() {
         <div className="relative z-10 text-center px-4 max-w-4xl">
           <div className="flex justify-center mb-6">
             <img 
-              src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" 
+              src="aimlLogo.png" 
               alt="AI/ML Logo" 
               className="h-24 w-24"
             />
