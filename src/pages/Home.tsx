@@ -1,7 +1,7 @@
 import React from 'react';
 import { GameCard } from '../components/GameCard';
 import { games } from '../data/games';
-import { ArrowRight, Brain, Sparkles, Zap, Clock } from 'lucide-react';
+import { ArrowRight, Brain, Sparkles, Zap, Clock, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Home() {
@@ -37,11 +37,21 @@ export function Home() {
           </div>
         </div>
         <div className="relative z-10 text-center px-4 max-w-4xl">
+          <div className="flex justify-center mb-6">
+            <img 
+              src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" 
+              alt="AI/ML Logo" 
+              className="h-24 w-24"
+            />
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Brain Games Arcade
           </h1>
-          <p className="text-xl text-gray-200 mb-8">
+          <p className="text-xl text-gray-200 mb-4">
             Challenge your mind with our collection of engaging puzzle and memory games
+          </p>
+          <p className="text-lg text-yellow-300 mb-8 font-semibold">
+            Complete as many games according to criteria in less time as possible to win the prize!
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
@@ -51,6 +61,44 @@ export function Home() {
               Play Games
               <ArrowRight className="ml-2 w-5 h-5" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Game Criteria Section */}
+      <section className="container mx-auto px-4 py-10 bg-indigo-50 dark:bg-gray-900">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 dark:text-white mb-8 flex items-center justify-center">
+            <Award className="w-8 h-8 mr-3 text-yellow-500" />
+            Game Completion Criteria
+          </h2>
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+            <p className="text-gray-700 dark:text-gray-300 mb-4 text-center font-medium">
+              Complete these minimum criteria for each game to count it in the competition:
+            </p>
+            <ul className="space-y-3">
+              <li className="flex items-start">
+                <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 font-bold text-sm mr-3">1</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>Pop and Drop:</strong> Complete 5 levels</span>
+              </li>
+              <li className="flex items-start">
+                <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 font-bold text-sm mr-3">2</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>Memory Madness:</strong> Complete 3 levels</span>
+              </li>
+              <li className="flex items-start">
+                <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 font-bold text-sm mr-3">3</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>Puzzle Mind:</strong> Complete 10 levels</span>
+              </li>
+              <li className="flex items-start">
+                <span className="inline-flex items-center justify-center h-6 w-6 rounded-full bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200 font-bold text-sm mr-3">4</span>
+                <span className="text-gray-700 dark:text-gray-300"><strong>Memory Maze:</strong> Complete 3 levels</span>
+              </li>
+            </ul>
+            <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-900/30 rounded-lg border border-yellow-200 dark:border-yellow-800">
+              <p className="text-yellow-800 dark:text-yellow-200 font-medium text-center">
+                Complete as many games according to criteria in the shortest time possible to win the prize!
+              </p>
+            </div>
           </div>
         </div>
       </section>
