@@ -18,7 +18,7 @@ export const games = [
     category: 'Puzzle',
     description: 'Challenge your mind with an intriguing collection of riddles that will test your wit and creativity.',
     instructions: 'Read each riddle carefully and type your answer. Think outside the box!',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1580894894513-541e068a3e2b?auto=format&fit=crop&q=80&w=1200',
+    thumbnailUrl: 'AIWarden',
     projectId: '326163967',
     embedUrl: 'https://ai-warden.ascpixi.dev/',
     embedType: 'iframe',
@@ -31,7 +31,7 @@ export const games = [
     category: 'Memory',
     description: 'Navigate through a challenging maze while testing your memory skills in this exciting adventure.',
     instructions: 'Remember the path and avoid obstacles as you make your way through the maze.',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1605870445919-838d190e8e1b?auto=format&fit=crop&q=80&w=1200',
+    thumbnailUrl: 'memorymaze',
     projectId: '26501005',
     embedType: 'scratch',
     featured: true
@@ -43,7 +43,7 @@ export const games = [
     category: 'Memory',
     description: 'Put your memory to the ultimate test in this fast-paced, challenging memory game.',
     instructions: 'Match pairs and remember patterns to progress through increasingly difficult levels.',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1596443686812-2f45229eebc3?auto=format&fit=crop&q=80&w=1200',
+    thumbnailUrl: 'MemoryMadness',
     projectId: '57765552',
     embedType: 'scratch',
     featured: true
@@ -55,7 +55,7 @@ export const games = [
     category: 'Puzzle',
     description: 'Challenge your brain with this collection of mind-bending puzzles designed to test your problem-solving skills.',
     instructions: 'Solve various puzzles by thinking creatively and using logical reasoning.',
-    thumbnailUrl: 'https://images.unsplash.com/photo-1553481187-be93c21490a9?auto=format&fit=crop&q=80&w=1200',
+    thumbnailUrl: 'PuzzleMind',
     embedUrl: 'https://ephemeral-unicorn-ad37c6.netlify.app',
     embedType: 'iframe',
     featured: true
