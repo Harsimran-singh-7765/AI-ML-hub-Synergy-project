@@ -28,7 +28,7 @@ export function Home() {
             <img 
               src="aimlLogo.png" 
               alt="AI/ML Logo" 
-              className="h-42 w-42" // Increased size from h-24 w-24
+              className="h-36 w-36" // Increased size from h-24 w-24
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
