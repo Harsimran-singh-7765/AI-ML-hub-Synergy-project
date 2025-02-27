@@ -18,7 +18,7 @@ export const games = [
     category: 'Puzzle',
     description: 'Challenge your mind with an intriguing collection of riddles that will test your wit and creativity.',
     instructions: 'Read each riddle carefully and type your answer. Think outside the box!',
-    thumbnailUrl: 'AIWarden',
+    thumbnailUrl: 'AIWarden.jpeg',
     projectId: '326163967',
     embedUrl: 'https://ai-warden.ascpixi.dev/',
     embedType: 'iframe',
@@ -31,7 +31,7 @@ export const games = [
     category: 'Memory',
     description: 'Navigate through a challenging maze while testing your memory skills in this exciting adventure.',
     instructions: 'Remember the path and avoid obstacles as you make your way through the maze.',
-    thumbnailUrl: 'memorymaze',
+    thumbnailUrl: 'memorymaze.jpeg',
     projectId: '26501005',
     embedType: 'scratch',
     featured: true
@@ -43,7 +43,7 @@ export const games = [
     category: 'Memory',
     description: 'Put your memory to the ultimate test in this fast-paced, challenging memory game.',
     instructions: 'Match pairs and remember patterns to progress through increasingly difficult levels.',
-    thumbnailUrl: 'MemoryMadness',
+    thumbnailUrl: 'MemoryMadness.jpeg',
     projectId: '57765552',
     embedType: 'scratch',
     featured: true
@@ -55,7 +55,7 @@ export const games = [
     category: 'Puzzle',
     description: 'Challenge your brain with this collection of mind-bending puzzles designed to test your problem-solving skills.',
     instructions: 'Solve various puzzles by thinking creatively and using logical reasoning.',
-    thumbnailUrl: 'PuzzleMind',
+    thumbnailUrl: 'PuzzleMind.jpeg',
     embedUrl: 'https://ephemeral-unicorn-ad37c6.netlify.app',
     embedType: 'iframe',
     featured: true
