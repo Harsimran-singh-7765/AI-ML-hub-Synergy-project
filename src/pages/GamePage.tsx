@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Loader } from 'lucide-react';
+import { ArrowLeft, Loader, Award } from 'lucide-react';
 import { games } from '../data/games';
 
 export function GamePage() {
@@ -81,9 +81,13 @@ export function GamePage() {
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
             {game.title}
           </h1>
-          <p className="text-gray-600 dark:text-gray-300 mb-6">
+          <p className="text-gray-600 dark:text-gray-300 mb-2">
             by {game.author}
           </p>
+          <div className="mb-6 inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200">
+            <Award className="w-4 h-4 mr-2" />
+            {game.completionCriteria}
+          </div>
 
           <div className="space-y-6">
             <div>

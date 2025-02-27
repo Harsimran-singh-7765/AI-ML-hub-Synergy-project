@@ -20,7 +20,11 @@ export function Header({ timeLeft }: HeaderProps) {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
-            <Brain className="w-8 h-8 text-indigo-600 dark:text-indigo-400" />
+            <img 
+              src="https://cdn-icons-png.flaticon.com/512/2103/2103633.png" 
+              alt="AI/ML Logo" 
+              className="w-8 h-8"
+            />
             <span className="text-xl font-bold text-gray-900 dark:text-white">AI/ML Hub</span>
           </Link>
           

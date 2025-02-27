@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, Brain, Sparkles } from 'lucide-react';
+import { Play, Brain, Sparkles, Award } from 'lucide-react';
 import { Game } from '../types';
 import { Link } from 'react-router-dom';
 
@@ -59,6 +59,10 @@ export function GameCard({ game, index }: GameCardProps) {
             <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center">
               <Sparkles className="w-4 h-4 mr-1" />
               by {game.author}
+            </p>
+            <p className="text-xs text-indigo-600 dark:text-indigo-400 mt-2 flex items-center">
+              <Award className="w-3 h-3 mr-1" />
+              {game.completionCriteria}
             </p>
           </div>
         </div>
