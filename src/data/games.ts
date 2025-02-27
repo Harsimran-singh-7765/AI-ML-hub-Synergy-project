@@ -69,8 +69,6 @@ export const games = [
     title: 'The Impossible Interview',
     author: 'AIExplorer',
     category: 'AI Challenge',
-    description: 'Face off against an AI interviewer in this unique and challenging interview simulation.',
-
     instructions: 'Answer questions carefully and try to navigate through the impossible interview scenario.',
     thumbnailUrl: 'inter.jpeg',
     projectId: '1126765653',
