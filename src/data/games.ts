@@ -67,7 +67,7 @@ export const games = [
     category: 'AI Challenge',
     description: 'Face off against an AI interviewer in this unique and challenging interview simulation.',
     instructions: 'Answer questions carefully and try to navigate through the impossible interview scenarios.',
-    thumbnailUrl: 'devil.png',
+    thumbnailUrl: 'inter.jpeg',
     projectId: '1126765653',
     embedType: 'scratch',
     featured: true
