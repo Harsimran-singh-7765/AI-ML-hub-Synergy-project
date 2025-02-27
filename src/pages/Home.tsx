@@ -23,25 +23,12 @@ export function Home() {
       {/* Hero Section */}
       <section className="relative h-[70vh] flex items-center justify-center bg-gradient-to-r from-indigo-600 via-purple-600 to-blue-600">
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="absolute inset-0">
-          <div className="h-full w-full flex items-center justify-center">
-            <div className="grid grid-cols-3 gap-4 opacity-20">
-              {[...Array(9)].map((_, i) => (
-                <Brain
-                  key={i}
-                  className="w-24 h-24 text-white transform rotate-45 animate-pulse"
-                  style={{ animationDelay: `${i * 0.2}s` }}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
         <div className="relative z-10 text-center px-4 max-w-4xl">
           <div className="flex justify-center mb-6">
             <img 
               src="aimlLogo.png" 
               alt="AI/ML Logo" 
-              className="h-24 w-24"
+              className="h-32 w-32" // Increased size from h-24 w-24
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
@@ -133,12 +120,10 @@ export function Home() {
             Slow, deliberate, and analytical thinking games that challenge your reasoning and problem-solving abilities
           </p>
         </div>
-        <div className="flex justify-center">
-          <div className="max-w-md">
-            {system2Games.map((game, index) => (
-              <GameCard key={game.id} game={game} index={index} />
-            ))}
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-md mx-auto">
+          {system2Games.map((game, index) => (
+            <GameCard key={game.id} game={game} index={index} />
+          ))}
         </div>
       </section>
 
@@ -155,12 +140,10 @@ export function Home() {
             Challenge yourself with our most demanding game that will put your cognitive abilities to the ultimate test
           </p>
         </div>
-        <div className="flex justify-center">
-          <div className="max-w-md">
-            {bonusGames.map((game, index) => (
-              <GameCard key={game.id} game={game} index={index} />
-            ))}
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-md mx-auto">
+          {bonusGames.map((game, index) => (
+            <GameCard key={game.id} game={game} index={index} />
+          ))}
         </div>
       </section>
     </div>
