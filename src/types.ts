@@ -10,6 +10,7 @@ export interface Game {
   embedUrl?: string; // Add direct embed URL for non-Scratch games
   embedType: 'scratch' | 'iframe'; // Type of embed
   featured: boolean;
+  completionCriteria: string; // Added completion criteria
 }
 
 export interface Theme {
