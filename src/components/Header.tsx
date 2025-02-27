@@ -23,7 +23,7 @@ export function Header({ timeLeft }: HeaderProps) {
             <img 
               src="aimlLogo.png" 
               alt="AI/ML Logo" 
-              className="w-10 h-10"
+              className="w-12 h-12"
             />
             <span className="text-xl font-bold text-gray-900 dark:text-white">AI/ML Hub</span>
           </Link>
@@ -52,7 +52,7 @@ export function Header({ timeLeft }: HeaderProps) {
             <Link to="/" className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
               Home
             </Link>
-            <Link to="/#games" className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+            <Link to="/#system-1" className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
               Games
             </Link>
           </div>
@@ -68,7 +68,7 @@ export function Header({ timeLeft }: HeaderProps) {
               Home
             </Link>
             <Link
-              to="/#games"
+              to="/#system-1"
               className="block py-2 text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
               onClick={() => setIsMenuOpen(false)}
             >
